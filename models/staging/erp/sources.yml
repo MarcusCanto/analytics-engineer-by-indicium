@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: erp
+    database: fea24_4
+    schema: raw_adventure_works  
+    tables:
+      - name: address
+      - name: countryregion
+      - name: creditcard
+      - name: customer
+      - name: person
+      - name: product
+      - name: salesorderheadersalesreason
+      - name: salesreason
+      - name: stateprovince
