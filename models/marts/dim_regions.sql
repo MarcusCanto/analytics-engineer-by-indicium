@@ -20,7 +20,7 @@ with
             , state_province.NM_STATE_PROVINCE
             , address.CITY_ADDRESS
             , address.POSTAL_CODE_ADDRESS
-            , state_province.STATE_PROVINCE_CODE
+            , state_province.CODE_STATE_PROVINCE
             , state_province.IS_ONLY_STATE_PROVINCE_FLAG
         from address
         left join state_province
