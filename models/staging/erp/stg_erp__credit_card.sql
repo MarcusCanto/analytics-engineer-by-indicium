@@ -2,7 +2,7 @@ with
     source_credit_card as (
         select
             cast(CREDITCARDID as int) as pk_credit_card
-            , cast(CARDTYPE as varchar) as credit_card_type
+            , cast(CARDTYPE as varchar) as type_credit_card
         from {{ source('erp', 'creditcard') }} 
         )
 
