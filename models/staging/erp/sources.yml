@@ -11,6 +11,8 @@ sources:
       - name: customer
       - name: person
       - name: product
+      - name: salesorderheader
       - name: salesorderheadersalesreason
+      - name: salesorderdetail
       - name: salesreason
       - name: stateprovince
