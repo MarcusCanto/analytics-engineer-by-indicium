@@ -3,15 +3,15 @@ with
         select
             cast(SALESORDERID as int) as pk_sales_order_header
             , cast(REVISIONNUMBER as int) as revision_number
-            , cast(ORDERDATE as string) as order_date
-            , cast(DUEDATE as string) as due_date
-            , cast(SHIPDATE as string) as ship_date
+            , cast(ORDERDATE as date) as order_date
+            , cast(DUEDATE as date) as due_date
+            , cast(SHIPDATE as date) as ship_date
             , cast(STATUS as int) as status
             , cast(ONLINEORDERFLAG as boolean) as online_order_flag
             , cast(PURCHASEORDERNUMBER as string) as purchase_order_number
             , cast(ACCOUNTNUMBER as string) as account_number
             , cast(CUSTOMERID as int) as fk_customer
-            , cast(SALESPERSONID as int) as sk_sales_person
+            , cast(SALESPERSONID as int) as fk_sales_person
             , cast(TERRITORYID as int) as fk_territory
             , cast(BILLTOADDRESSID as int) as fk_bill_address
             , cast(SHIPTOADDRESSID as int) as fk_ship_address
