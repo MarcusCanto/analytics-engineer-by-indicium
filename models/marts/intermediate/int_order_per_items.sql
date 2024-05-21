@@ -46,7 +46,7 @@ with
         on order_details.fk_sales_order_header = orders.pk_sales_order_header
     )
 
-    , created_primary_key as (
+    , create_primary_key as (
         select
             cast(fk_sales_order_header as string) || '-' || cast(fk_product as string) as sk_sales
             , *
@@ -54,4 +54,4 @@ with
     )
 
 select * 
-from created_primary_key
+from create_primary_key
