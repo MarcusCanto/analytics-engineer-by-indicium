@@ -4,7 +4,6 @@ with
             cast (ADDRESSID as int) as pk_address
             , cast (CITY as varchar) as city_address
             , cast (STATEPROVINCEID as int) as fk_state_province
-            , cast (POSTALCODE as varchar) as postal_code_address
         from {{ source('erp', 'address') }} 
         )
 

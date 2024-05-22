@@ -19,9 +19,6 @@ with
             , country_region.NM_COUNTRY_REGION
             , state_province.NM_STATE_PROVINCE
             , address.CITY_ADDRESS
-            , address.POSTAL_CODE_ADDRESS
-            , state_province.CODE_STATE_PROVINCE
-            , state_province.IS_ONLY_STATE_PROVINCE_FLAG
         from address
         left join state_province
         on address.fk_state_province = state_province.pk_state_province

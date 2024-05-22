@@ -1,0 +1,18 @@
+version: 2
+
+models:
+  - name: dim_regions
+    description: table with customer's city, state, and country informations
+    columns:
+      - name: PK_ADDRESS
+        description: table address primary key
+      - name: PK_STATE_PROVINCE
+        description: table state province primary key
+      - name: PK_COUNTRY_REGION
+        description: table country region primary key
+      - name: NM_COUNTRY_REGION
+        description: country name
+      - name: NM_STATE_PROVINCE
+        description: state province name
+      - name: CITY_ADDRESS
+        description: city name

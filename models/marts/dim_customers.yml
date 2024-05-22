@@ -1,0 +1,14 @@
+version: 2
+
+models:
+  - name: dim_customers
+    description: table with customers information
+    columns:
+      - name: PK_PERSON
+        description: table person primary key
+      - name: PK_CUSTOMER
+        description: dim customers primary key
+      - name: PK_STORE
+        description: table store primary key
+      - name: NM_STORE
+        description: store name
