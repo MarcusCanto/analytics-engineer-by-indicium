@@ -2,7 +2,7 @@ version: 2
 
 models:
   - name: dim_credit_card
-    description: >
+    description: table with credit card information
     columns:
       - name: PK_CREDIT_CARD
         description: dim credit card primary key

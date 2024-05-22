@@ -2,7 +2,7 @@ version: 2
 
 models:
   - name: dim_sales_reason
-    description: >
+    description: table with information about the reason of sales
     columns:
         - name: FK_SALES_ORDER_HEADER
           description: table sales order header primary key 

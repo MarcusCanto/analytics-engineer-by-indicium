@@ -1,0 +1,51 @@
+version: 2
+
+models:
+  - name: fct_sales
+    description: table with sales information
+    columns:
+      - name: SK_SALES
+        description: fct sales surrogate key
+      - name: PK_SALES_ORDER_DETAIL
+        description: table sales order detail primary key
+      - name: FK_SALES_ORDER_HEADER
+        description: table sales order header primary key
+      - name: FK_PRODUCT
+        description: table product primary key
+      - name: FK_SPECIAL_OFFER
+        description: table special offer primary key
+      - name: FK_CUSTOMER
+        description: table customer primary key
+      - name: FK_TERRITORY
+        description: table territory primary key
+      - name: FK_BILL_ADDRESS
+        description: table address primary key
+      - name: FK_SHIP_ADDRESS
+        description: table address primary key
+      - name: FK_CREDIT_CARD
+        description: table credit card primary key
+      - name: ORDER_QTY
+        description: order quantity
+      - name: UNIT_PRICE
+        description: unit price
+      - name: UNIT_PRICE_DISCOUNT
+        description: dicount of the unit price in percentage
+      - name: ORDER_DATE
+        description: order date
+      - name: STATUS
+        description: status
+      - name: TOTAL_GROSS_VALUE
+        description: total gross value, unit price multipled by order quantity
+      - name: TOTAL_NET_VALUE
+        description: total net value, unit price multipled by order quantity multiplied by unit proce discount
+      - name: PRORATED_SUB_TOTAL
+        description: sub total divided by each product in an order
+      - name: PRORATED_FREIGHT
+        description: freight divided by each product in an order
+      - name: PRORATED_TAX_AMT
+        description: tax amt divided by each product in an order
+      - name: PRORATED_TOTAL_DUE
+        description: total due divided by each product in an order
+
+
+

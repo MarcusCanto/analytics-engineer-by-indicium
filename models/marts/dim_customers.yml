@@ -2,7 +2,7 @@ version: 2
 
 models:
   - name: dim_customers
-    description: >
+    description: table with customers information
     columns:
       - name: PK_PERSON
         description: table person primary key

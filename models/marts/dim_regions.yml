@@ -2,7 +2,7 @@ version: 2
 
 models:
   - name: dim_regions
-    description: >
+    description: table with customer's city, state, and country informations
     columns:
       - name: PK_ADDRESS
         description: table address primary key
