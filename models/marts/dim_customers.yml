@@ -8,6 +8,8 @@ models:
         description: table person primary key
       - name: PK_CUSTOMER
         description: dim customers primary key
+        tests:
+          - unique
       - name: PK_STORE
         description: table store primary key
       - name: NM_STORE

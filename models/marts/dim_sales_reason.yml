@@ -7,6 +7,6 @@ models:
         - name: FK_SALES_ORDER_HEADER
           description: table sales order header primary key 
         - name: PK_SALES_REASON
-          description: table sales reason header primary key
+          description: table sales reason primary key
         - name: NM_SALES_REASON
           description: sales reason name
