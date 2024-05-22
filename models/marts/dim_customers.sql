@@ -19,10 +19,6 @@ with
             , customers.PK_CUSTOMER
             , stores.pk_STORE
             , stores.nm_STORE
-            , persons.FIRS_NAME_PERSON
-            , persons.MIDDLE_NAME_PERSON
-            , persons.LAST_NAME_PERSON
-            , persons.SUFFIX_PERSON
         from persons
         left join customers
         on persons.pk_person = customers.fk_person 

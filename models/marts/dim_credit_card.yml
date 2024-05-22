@@ -1,0 +1,10 @@
+version: 2
+
+models:
+  - name: dim_credit_card
+    description: >
+    columns:
+      - name: PK_CREDIT_CARD
+        description: dim credit card primary key
+      - name: TYPE_CREDIT_CARD
+        description: type of credit card

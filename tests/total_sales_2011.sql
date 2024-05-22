@@ -7,7 +7,7 @@ with
 
 select total_gross_value
 from sales_2011
-where total_gross_value not between 12646112 and 12646113
+where total_gross_value not between 12646104 and 12646105
 
 
 
