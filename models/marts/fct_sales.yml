@@ -6,6 +6,9 @@ models:
     columns:
       - name: SK_SALES
         description: fct sales surrogate key
+        tests:
+          - unique
+          - not_null
       - name: PK_SALES_ORDER_DETAIL
         description: table sales order detail primary key
       - name: FK_SALES_ORDER_HEADER
